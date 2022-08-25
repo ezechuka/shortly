@@ -14,10 +14,11 @@ function App() {
     <Box
       backgroundImage={illustrationWorking}
       backgroundRepeat={'no-repeat'}
-      backgroundPosition={{ base: '-15% 3%', md: '114% 9%' }}
+      backgroundPosition={{ base: '-15% 3%', md: '118% 9%' }}
       backgroundSize={{ base: '550px', md: '600px' }}>
       <Flex
         mx='auto'
+        px={6}
         maxWidth={['container.lg']}
         flexDirection='column'>
         <Navbar />
@@ -27,6 +28,7 @@ function App() {
       <Box backgroundColor={'gray.100'} marginTop={{ base: 32, md: 16 }}>
         <Flex
           mx='auto'
+          px={6}
           maxWidth={['container.lg']}
           flexDirection='column'>
           <Main />
@@ -39,8 +41,12 @@ function App() {
 
       </Box>
 
-      <Box as={'footer'} backgroundColor={'very-dark-violet-nl'}>
-        <Flex mx='auto'
+      <Box
+        as={'footer'}
+        backgroundColor={'very-dark-violet-nl'}>
+        <Flex
+          mx='auto'
+          px={6}
           maxWidth={['container.lg']}
           flexDirection='column'>
           <Footer />

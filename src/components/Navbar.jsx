@@ -13,7 +13,7 @@ const Navbar = () => {
     }
 
     return (
-        <Flex width={'100%'} paddingTop={{ base: 8, md: 12 }} paddingX={{ base: 6, md: 0 }}
+        <Flex paddingTop={{ base: 8, md: 12 }} paddingX={{ base: 6, md: 0 }}
             alignItems='center' justifyContent='space-between'>
             <Image src={logo} />
 
