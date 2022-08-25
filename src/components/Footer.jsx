@@ -31,7 +31,8 @@ const Footer = () => {
             {/* LOGO */}
             <Image src={logo}
                 color={'white'}
-                marginEnd={{ base: 0, md: 40 }} />
+                marginEnd={{ base: 0, md: 40 }}
+                alt={'Shortly logo'} />
 
             {/* CTA */}
             <Grid
@@ -103,6 +104,7 @@ const Footer = () => {
                         color: 'cyan-pr',
                         cursor: 'pointer'
                     }}
+                    alt={'Facebook social logo'}
                 />
                 <Image
                     src={twitter}
@@ -110,6 +112,7 @@ const Footer = () => {
                         color: 'cyan-pr',
                         cursor: 'pointer'
                     }}
+                    alt={'Twitter social logo'}
                 />
                 <Image
                     src={pinterest}
@@ -117,6 +120,7 @@ const Footer = () => {
                         color: 'cyan-pr',
                         cursor: 'pointer'
                     }}
+                    alt={'Pinterest social logo'}
                 />
                 <Image
                     src={instagram}
@@ -124,6 +128,7 @@ const Footer = () => {
                         color: 'cyan-pr',
                         cursor: 'pointer'
                     }}
+                    alt={'Instagram social logo'}
                 />
             </HStack>
 

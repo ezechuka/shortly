@@ -15,7 +15,7 @@ const Navbar = () => {
     return (
         <Flex paddingTop={{ base: 8, md: 12 }} paddingX={{ base: 6, md: 0 }}
             alignItems='center' justifyContent='space-between'>
-            <Image src={logo} />
+            <Image src={logo} alt={'Shortly Logo'} />
 
             {/* Display for md && above */}
             <Flex marginStart={10} display={{ base: 'none', md: 'flex' }}>
@@ -44,6 +44,7 @@ const Navbar = () => {
                 src={iconHamburger}
                 onClick={showMobileMenu}
                 display={{ base: 'block', md: 'none' }}
+                alt={'mobile menu icon'}
                 _hover={{ cursor: 'pointer' }}
             />
 

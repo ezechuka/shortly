@@ -18,7 +18,7 @@ const InsightCard = ({ imageInsight, title, description, marginStart, marginTop,
                 size={'84px'}
                 marginTop={'-80px'}
                 bg={'dark-violet-pr'}>
-                <Image src={imageInsight} />
+                <Image src={imageInsight} alt={''} />
             </Circle>
 
             <Text
