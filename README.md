@@ -33,8 +33,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: [FrontendMentor](https://www.frontendmentor.io/solutions/responsive-url-shortening-page-VrBSUcSlzQ)
+- Live Site URL: [Netlify](https://shoortly.netlify.app/)
 
 ## My process
 
